@@ -14,8 +14,8 @@ function getComputerChoice(){
     playerSelection = window.prompt("Rock, Paper or Scissors?");
 }*/
 function playRound(playerSelection, computerSelection) {
-    playerSelection.toLowercase();
-    computerSelection.toLowercase();
+    playerSelection.toLowerCase();
+    computerSelection.toLowerCase();
     if (playerSelection==computerSelection){
         return "That's a tie! Let's continue."
     }
