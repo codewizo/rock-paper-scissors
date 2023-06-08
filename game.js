@@ -28,7 +28,7 @@ function playRound(playerSelection, computerSelection) {
             return (player == "rock") ? "You Win!" : "You lose!"
         }
     }
-    return winner
+    return winner;
 }
 const playerSelection = "rock";
 const computerSelection = getComputerChoice();
