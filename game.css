@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(72, 73, 73);
+}
+.header h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.play-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+.button-img{
+    width: 100%;
+}
